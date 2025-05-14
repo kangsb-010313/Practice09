@@ -11,11 +11,12 @@ public class FriendApp {
     	
     	ArrayList<Friend> fArray = new ArrayList<Friend>();
     	
+    	System.out.println("친구를 3명 등록해 주세요");
+    	
     	Friend f01 = new Friend();
     	Friend f02 = new Friend();
     	Friend f03 = new Friend();
     	
-    	System.out.println("친구를 3명 등록해 주세요");
     	
     	fArray.add(f01);
     	fArray.add(f02);
